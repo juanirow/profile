@@ -1,5 +1,4 @@
 <template>
-<div>
   <!-- Home Section -->
   <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
     <div class="intro">
@@ -23,23 +22,13 @@
       <div class="wheel"></div>
     </div>
   </section><!-- End Home Section -->
-
-  <Header></Header>
-  <About></About>
-</div>
 </template>
 
 <script>
 
-import Header from '@/components/header/header.vue'
-import About from '@/components/about/about.vue'
 
 export default {
-    name: 'Home',
-    components: {
-        Header,
-        About
-    }
+  name: 'Home'
 }
 
 </script>
