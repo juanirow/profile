@@ -23,13 +23,19 @@
       <div class="wheel"></div>
     </div>
   </section><!-- End Home Section -->
+
+  <Header></Header>
 </div>
 </template>
 
 <script>
 
+import Header from '@/components/header/header.vue'
 export default {
-  name: 'Home'
+    name: 'Home',
+    components: {
+        Header
+    }
 }
 
 </script>
