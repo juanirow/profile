@@ -12,12 +12,10 @@
               <img src="assets/images/myphoto.jpg" alt="">
             </div>
             <ul>
-              <li><strong>Name:</strong> John Doe</li>
-              <li><strong>Date of birth:</strong> 05 Dec 1993</li>
-              <li><strong>Address:</strong> 239/2 Awesome Street, USA</li>
-              <li><strong>Nationality:</strong> American</li>
-              <li><strong>Phone:</strong> (000) 1234 56789</li>
-              <li><strong>Email:</strong> yourmail@iamx.com</li>
+              <li><strong>Name:</strong>&nbsp;Juan Manuel Hernandez L.</li>
+              <li><strong>Date of birth:</strong> 02 Aug 1990</li>
+              <li><strong>Nationality:</strong> Mexican </li>
+              <li><strong>Email:</strong> juan.hernandez@nakva.mx</li>
             </ul>
           </div>
         </div> <!-- col-md-4 -->
