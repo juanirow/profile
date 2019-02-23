@@ -6,6 +6,7 @@
                     </div>
                     <div class="resume">
                         <ul class="timeline">
+                          <ResumeItem/>
                             <li>
                                 <div class="posted-date">
                                     <span class="month">2007-2011</span>
@@ -68,7 +69,9 @@
             </div><!-- /row -->
 </template>
 <script>
+import ResumeItem from '@/components/resumeItem/resumeItem.vue'
   export default {
-    name: 'Education'
+      name: 'Education',
+      components: { ResumeItem }
   }
 </script>
