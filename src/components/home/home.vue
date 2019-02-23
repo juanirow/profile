@@ -25,16 +25,20 @@
   </section><!-- End Home Section -->
 
   <Header></Header>
+  <About></About>
 </div>
 </template>
 
 <script>
 
 import Header from '@/components/header/header.vue'
+import About from '@/components/about/about.vue'
+
 export default {
     name: 'Home',
     components: {
-        Header
+        Header,
+        About
     }
 }
 

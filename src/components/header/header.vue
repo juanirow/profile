@@ -9,7 +9,6 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
