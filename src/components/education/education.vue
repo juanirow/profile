@@ -6,7 +6,14 @@
                     </div>
                     <div class="resume">
                         <ul class="timeline">
-                          <ResumeItem/>
+                          <template v-for="(item, index) in educationItems">
+                           <ResumeItem
+                             :key="index"
+                             :item="item"
+                             :index="index"
+                             />
+                          </template>
+
                             <li>
                                 <div class="posted-date">
                                     <span class="month">2007-2011</span>
@@ -72,6 +79,16 @@
 import ResumeItem from '@/components/resumeItem/resumeItem.vue'
   export default {
       name: 'Education',
-      components: { ResumeItem }
+      components: { ResumeItem },
+      data: () => ({
+          educationItems: [
+              {
+                  title: "MASTER OF BUSINESS ADMINISTRATION SPECIALIZING IN FINANCE",
+                  place: "Universidad Tecmilenio SLP",
+                  date: "2015 - 2017",
+                  description: "I decided"
+              }
+          ]
+      })
   }
 </script>
