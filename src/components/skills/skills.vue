@@ -5,58 +5,21 @@
 
      <div class="row">
        <div class="col-md-6">
-          <template v-for="(item, index) in items">
+          <template v-for="(item, index) in itemsLeft">
             <SkillProgress
               :item="item"
               :key="index"
               />
           </template>
-         <div class="skill-progress">
-           <div class="skill-title"><h3>UX Design</h3></div> 
-           <div class="progress">
-             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
-             </div>
-           </div><!-- /.progress -->
-         </div><!-- /.skill-progress -->
-
-         <div class="skill-progress">
-           <div class="skill-title"><h3>Visual Design</h3></div> 
-           <div class="progress">
-             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-             </div>
-           </div><!-- /.progress -->
-         </div><!-- /.skill-progress -->
-         <div class="skill-progress">
-           <div class="skill-title"><h3>Business Design</h3></div>  
-           <div class="progress">
-             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-             </div>
-           </div><!-- /.progress -->
-         </div><!-- /.skill-progress -->
        </div><!-- /.col-md-6 -->
 
        <div class="col-md-6">
-         <div class="skill-progress">
-           <div class="skill-title"><h3>Branding Design</h3></div> 
-           <div class="progress">
-             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
-             </div>
-           </div><!-- /.progress -->
-         </div><!-- /.skill-progress -->
-         <div class="skill-progress">
-           <div class="skill-title"><h3>Motion Graphic</h3></div> 
-           <div class="progress">
-             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-             </div>
-           </div><!-- /.progress -->
-         </div><!-- /.skill-progress -->
-         <div class="skill-progress">
-           <div class="skill-title"><h3>Flyers Designing</h3></div>  
-           <div class="progress">
-             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-             </div>
-           </div><!-- /.progress -->
-         </div><!-- /.skill-progress -->
+          <template v-for="(item, index) in itemsRight">
+            <SkillProgress
+              :item="item"
+              :key="index"
+              />
+          </template>
        </div><!-- /.col-md-6 -->
      </div><!-- /.row -->
 
@@ -125,11 +88,57 @@ export default {
     name: 'Skills',
     components: { SkillProgress },
     data: () => ({
-        items: [
+        itemsLeft: [
             {
                 title: "Kotlin",
-                value: 50
-            }
+                value: 70
+            },
+            {
+                title: "Java",
+                value: 80
+            },
+            {
+                title: "MVP",
+                value: 85
+            },
+            {
+                title: "Android MVVM",
+                value: 75
+            },
+            {
+                title: "Android Room DB",
+                value: 80
+            },
+            {
+                title: "Android Data Binding",
+                value: 70
+            },
+        ],
+        itemsRight: [
+            {
+                title: "iOS (Swift)",
+                value: 75
+            },
+            {
+                title: "iOS (MVC)",
+                value: 70
+            },
+            {
+                title: "Vue.js",
+                value: 60
+            },
+            {
+                title: "Angular 4",
+                value: 60
+            },
+            {
+                title: "Web Dev",
+                value: 70
+            },
+            {
+                title: "Flutter",
+                value: 40
+            },
         ]
     })
 }
