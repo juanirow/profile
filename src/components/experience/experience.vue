@@ -6,43 +6,13 @@
                     </div>
                     <div class="resume">
                         <ul class="timeline">
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">2011-2013</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Junior ui designer</h3>
-                                            <span>XYZ Design Home, One Street, Boston</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2013-2015</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Lead UX Consultant</h3>
-                                            <span>Lucky8 Designing Firm, California</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
+                          <template v-for="(item, index) in items">
+                           <ResumeItem
+                             :key="index"
+                             :item="item"
+                             :index="index"
+                             />
+                          </template>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +20,43 @@
 </template>
 
 <script>
-  export default {
-  name: 'Experience'
+import ResumeItem from '@/components/resumeItem/resumeItem.vue'
+export default {
+    name: 'Experience',
+    components: { ResumeItem },
+    data: () => ({
+        items: [
+            {
+                title: "Android Developer",
+                place: "Ntrack",
+                date: "2017 - 2019",
+                description: "Monitoring System"
+            },
+            {
+                title: "Android Developer",
+                place: "Arteko Electronics",
+                date: "2014 - 2019",
+                description: "This project consist in the development and improvement of the Cuby app.Cuby is a device to control the mini splits (a/c) with your smartphone or computer from anywhere in the world with internet access"
+            },
+            {
+                title: "CO-FOUNDER",
+                place: "Nakva",
+                date: "2016 - 2019",
+                description: "Current Brand that I use to personal projects"
+            },
+            {
+                title: "SOFTWARE ENGINEER",
+                place: "Masukoro System",
+                date: "2013 - 2015",
+                description: "Development of a CRM to a company in San Luis Potosi and a point of sale for the same company"
+            },
+            {
+                title: "LABORATORY ASSISTANT ELECTRONICS AND DIGITAL SYSTEMS",
+                place: "Universidad Autonoma de San Luis Potosi",
+                date: "2013 - 2015",
+                description: "This job consist to teach the newest students, the application of the theory learned on the classroom, This practices consisted in develop solutions to a problems using Integrated circuits and sometimes arduinos"
+            }
+        ]
+    })
   }
 </script>
