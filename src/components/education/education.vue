@@ -13,63 +13,6 @@
                              :index="index"
                              />
                           </template>
-
-                            <li>
-                                <div class="posted-date">
-                                    <span class="month">2007-2011</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Bachelor degree certificate</h3>
-                                            <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                    <span class="month">2004-2006</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Higher Secondary certificate</h3>
-                                            <span>Typography Arts, FA College, New York, USA</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>From this college of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2000-2003</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Secondary school certificate</h3>
-                                            <span>Creative Arts, Julius Jr. school, USA</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -77,18 +20,36 @@
 </template>
 <script>
 import ResumeItem from '@/components/resumeItem/resumeItem.vue'
-  export default {
-      name: 'Education',
-      components: { ResumeItem },
-      data: () => ({
-          educationItems: [
-              {
-                  title: "MASTER OF BUSINESS ADMINISTRATION SPECIALIZING IN FINANCE",
-                  place: "Universidad Tecmilenio SLP",
-                  date: "2015 - 2017",
-                  description: "I decided"
-              }
-          ]
-      })
-  }
+export default {
+    name: 'Education',
+    components: { ResumeItem },
+    data: () => ({
+        educationItems: [
+            {
+                title: "ENGLISH COURSE",
+                place: "Academic Bringe, Dublin, Ireland",
+                date: "2017 - 2018",
+                description: "In order to improve my english I decide to live in dublin and study an english course"
+            },
+            {
+                title: "MASTER OF BUSINESS ADMINISTRATION SPECIALIZING IN FINANCE",
+                place: "Universidad Tecmilenio SLP",
+                date: "2015 - 2017",
+                description: "I decided to study this master's degree because I want to collaborate and develop applications oriented in finances and business"
+            },
+            {
+                title: "ANDROID BASICS CERTIFICATE",
+                place: "Universidad Autonoma de San Luis Potosi",
+                date: "",
+                description: "Basic module for the developer of mobile app on the android plataform"
+            },
+            {
+                title: "ENGINEER'S DEGREE, COMPUTER ENGINEERING",
+                place: "Universidad Autonoma de San Luis Potosi",
+                date: "2008-2014",
+                description: "In this school I develop my skills in oriented programming objects and the analysis algorithm development. This was where piqued my interest for web applications and mobile applications"
+            }
+        ]
+    })
+}
 </script>

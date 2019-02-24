@@ -1,9 +1,9 @@
 <template>
 <li
-  v-bind:class="{ 'timeline-inverted': index % 2 == 0 }">
+  v-bind:class="{ 'timeline-inverted': index % 2 != 0 }">
      <div class="posted-date">
          <span class="month">{{ item.date }}</span>
-     </div><!-- /posted-date 
+     </div>
 
      <div class="timeline-panel wow fadeInUp">
          <div class="timeline-content">
@@ -14,9 +14,9 @@
 
              <div class="timeline-body">
                  <p>{{ item.description }}</p>
-             </div><!-- /timeline-body -->
-         </div> <!-- /timeline-content -->
-     </div><!-- /timeline-panel -->
+             </div>
+         </div> 
+     </div>
  </li>
 </template>
 <script>
