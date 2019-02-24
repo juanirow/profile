@@ -29,6 +29,7 @@
 
      <div class="row more-skill text-center">
        <div class="col-xs-12 col-sm-4 col-md-2">
+
            <div class="chart" data-percent="91" data-color="e74c3c">
                  <span class="percent"></span>
                  <div class="chart-text">
@@ -36,6 +37,7 @@
                  </div>
              </div>
          </div>
+
          <div class="col-xs-12 col-sm-4 col-md-2">
            <div class="chart" data-percent="23" data-color="2ecc71">
                  <span class="percent"></span>
