@@ -1,7 +1,7 @@
 <template>
  <div class="col-xs-12 col-sm-4 col-md-2">
    <div class="chart"
-        v.bind:data-percent="item.value"
+        v-bind:data-percent="item.value"
         data-color="e74c3c">
         <span class="percent"></span>
         <div class="chart-text">

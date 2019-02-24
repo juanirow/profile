@@ -28,56 +28,12 @@
      </div>
 
      <div class="row more-skill text-center">
-       <div class="col-xs-12 col-sm-4 col-md-2">
-
-           <div class="chart" data-percent="91" data-color="e74c3c">
-                 <span class="percent"></span>
-                 <div class="chart-text">
-                   <span>leadership</span>
-                 </div>
-             </div>
-         </div>
-
-         <div class="col-xs-12 col-sm-4 col-md-2">
-           <div class="chart" data-percent="23" data-color="2ecc71">
-                 <span class="percent"></span>
-                 <div class="chart-text">
-                   <span>Creativity</span>
-                 </div>
-             </div>
-         </div>
-         <div class="col-xs-12 col-sm-4 col-md-2">
-           <div class="chart" data-percent="68" data-color="3498db">
-                 <span class="percent"></span>
-                 <div class="chart-text">
-                   <span>Management</span>
-                 </div>
-             </div>
-         </div>
-         <div class="col-xs-12 col-sm-4 col-md-2">
-           <div class="chart" data-percent="68" data-color="3498db">
-                 <span class="percent"></span>
-                 <div class="chart-text">
-                   <span>Branding</span>
-                 </div>
-             </div>
-         </div>
-         <div class="col-xs-12 col-sm-4 col-md-2">
-           <div class="chart" data-percent="68" data-color="3498db">
-                 <span class="percent"></span>
-                 <div class="chart-text">
-                   <span>Marketing</span>
-                 </div>
-             </div>
-         </div>
-         <div class="col-xs-12 col-sm-4 col-md-2">
-           <div class="chart" data-percent="68" data-color="3498db">
-                 <span class="percent"></span>
-                 <div class="chart-text">
-                   <span>Motivation</span>
-                 </div>
-             </div>
-         </div>
+          <template v-for="(item, index) in itemsChart">
+            <SkillChart
+              :item="item"
+              :key="index"
+              />
+          </template>
      </div>
 
    </div><!-- /.container -->
@@ -86,9 +42,10 @@
 
 <script>
 import SkillProgress from '@/components/skillProgress/skillProgress.vue'
+import SkillChart from '@/components/skillChart/skillChart.vue'
 export default {
     name: 'Skills',
-    components: { SkillProgress },
+    components: { SkillProgress, SkillChart },
     data: () => ({
         itemsLeft: [
             {
@@ -141,7 +98,34 @@ export default {
                 title: "Flutter",
                 value: 40
             },
+        ],
+        itemsChart: [
+            {
+                title: "Leadership",
+                value: 88
+            },
+            {
+                title: "Managment",
+                value: 90
+            },
+            {
+                title: "Finance",
+                value: 85
+            },
+            {
+                title: "Business Model",
+                value: 80
+            },
+            {
+                title: "Teamwork",
+                value: 90
+            },
+            {
+                title: "Creativity",
+                value: 85
+            },
         ]
+
     })
 }
 </script>
