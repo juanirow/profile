@@ -5,6 +5,12 @@
 
      <div class="row">
        <div class="col-md-6">
+          <template v-for="(item, index) in items">
+            <SkillProgress
+              :item="item"
+              :key="index"
+              />
+          </template>
          <div class="skill-progress">
            <div class="skill-title"><h3>UX Design</h3></div> 
            <div class="progress">
@@ -114,5 +120,17 @@
 </template>  
 
 <script>
-  export default { name: 'Skills' }
+import SkillProgress from '@/components/skillProgress/skillProgress.vue'
+export default {
+    name: 'Skills',
+    components: { SkillProgress },
+    data: () => ({
+        items: [
+            {
+                title: "Kotlin",
+                value: 50
+            }
+        ]
+    })
+}
 </script>
