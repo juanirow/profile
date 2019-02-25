@@ -7,6 +7,7 @@
     <Skills/>
     <Works/>
     <Facts/>
+    <Hire/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Resume from '@/components/resume/resume.vue'
 import Skills from '@/components/skills/skills.vue'
 import Works from '@/components/works/works.vue'
 import Facts from '@/components/facts/facts.vue'
+import Hire from '@/components/hire/hire.vue'
 
 export default {
     name: 'Main',
@@ -28,7 +30,8 @@ export default {
         Resume,
         Skills,
         Works,
-        Facts
+        Facts,
+        Hire
     }
 }
 </script>

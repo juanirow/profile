@@ -1,0 +1,18 @@
+<template>
+ <section id="contact" class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+   <div class="hire-section-bg">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <h2>I'm available for freelance project</h2>
+           <a href="mailto:juan.hernandez@nakva.mx" class="btn btn-default">Get Hired</a>
+         </div><!-- /.col-md-12 -->
+       </div><!-- /.row -->
+     </div><!-- /.container -->
+   </div><!-- /.hire-section-bg -->
+ </section><!-- End Hire Section -->
+</template>
+
+<script>
+  export default { name: 'Hire' }
+</script>
