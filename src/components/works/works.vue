@@ -15,130 +15,11 @@
 
     <div class="row">
       <div id="grid">
-
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-
-
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "android", "web", "ios"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/totalpunch.jpeg"><i class="fa fa-search-plus"></i></a>
-                <a href="https://play.google.com/store/apps/details?id=com.nakva.boxing&hl=es"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/totalpunch.jpeg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Total Punch</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
-        <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
-          <div class="portfolio-bg">
-            <div class="portfolio">
-              <div class="tt-overlay"></div>
-              <div class="links">
-                <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
-                <a href="#"><i class="fa fa-link"></i></a>                          
-              </div><!-- /.links -->
-              <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
-              <div class="portfolio-info">
-                <h3>Portfolio Title</h3>
-              </div><!-- /.portfolio-info -->
-            </div><!-- /.portfolio -->
-          </div><!-- /.portfolio-bg -->
-        </div><!-- /.portfolio-item -->
+        <template v-for="(item, index) in items">
+          <WorksItem
+            :key="index"
+            :item="item"/>
+        </template>
       </div><!-- /#grid -->
     </div><!-- /.row -->
   </div><!-- /.container -->
@@ -146,6 +27,57 @@
 </template>
 
 <script>
-  export default { name: 'Works' }
+import WorksItem from "@/components/worksItem/worksItem.vue"
+
+export default {
+    name: 'Works',
+    components: { WorksItem },
+    data: () => ({
+        items: [
+            {
+                title: "Total Punch",
+                groups: '["all", "android", "ios", "web"]',
+                link: "https://play.google.com/store/apps/details?id=com.nakva.boxing&hl=es",
+                image: "assets/images/works/totalpunch.jpeg"
+            },
+            {
+                title: "Ntrack",
+                groups: '["all", "android"]',
+                link: "https://ntrackmx.com/",
+                image: "assets/images/works/ntrack.png"
+            },
+            {
+                title: "Cuby",
+                groups: '["all", "android", "ios", "web"]',
+                link: "https://cuby.mx/",
+                image: "assets/images/works/cuby.png"
+            },
+            {
+                title: "Supertimbre",
+                groups: '["all", "android", "ios"]',
+                link: "http://nakva.mx/",
+                image: "assets/images/works/supertimbre.png"
+            },
+            {
+                title: "Arteko",
+                groups: '["all", "android", "ios", "web", "desktop"]',
+                link: "https://arteko.mx/",
+                image: "assets/images/works/arteko.png"
+            },
+            {
+                title: "Hackaton Centro Fox",
+                groups: '["all", "events"]',
+                link: "http://nakva.mx/",
+                image: "assets/images/events/hackaton.png"
+            },
+            {
+                title: "Startup Weekend MEGACENTRO",
+                groups: '["all", "events"]',
+                link: "http://nakva.mx/",
+                image: "assets/images/events/startup.jpg"
+            }
+        ]
+    })
+}
 </script>
 
