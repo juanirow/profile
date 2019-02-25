@@ -8,6 +8,7 @@
     <Works/>
     <Facts/>
     <Hire/>
+    <Footer/>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Skills from '@/components/skills/skills.vue'
 import Works from '@/components/works/works.vue'
 import Facts from '@/components/facts/facts.vue'
 import Hire from '@/components/hire/hire.vue'
+import Footer from '@/components/footer/footer.vue'
 
 export default {
     name: 'Main',
@@ -31,7 +33,8 @@ export default {
         Skills,
         Works,
         Facts,
-        Hire
+        Hire,
+        Footer
     }
 }
 </script>
