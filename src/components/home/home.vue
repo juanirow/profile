@@ -3,7 +3,7 @@
   <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
     <div class="intro">
       <div class="intro-sub">I am Juan Manuel Hernandez Linan</div>
-      <h1>Developer<span>Entrepreneur</span></h1>
+      <h1>Developer /<span> Entrepreneur</span></h1>
       <p>
         I am a person totally dedicated to develop web & mobile applications. <br>
         Getting involved with the newest tools and frameworks for the development of my applications
